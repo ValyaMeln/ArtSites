@@ -1,0 +1,127 @@
+body {
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #767676;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+}
+.container{
+    width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header{
+    background-color: #DCDCDC;
+}
+.content{
+    padding: 40px 0 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__contacts{
+    margin-bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: right;
+    list-style: none;
+}
+.header__contacts-phone{
+    color: #767676;
+}
+.header__contacts-feedback{
+    color: #767676;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-bottom: 1px dashed #767676;
+}
+[class*='header__contacts-phone']:hover{
+    color: red;
+    /*text-decoration: none;*/
+}
+.header__contacts-feedback:hover{
+    color: #767676;
+    text-decoration: none;
+}
+/*======================================*/
+.menu-body{
+    background-color: #767676;
+}
+.menu__list{
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.menu__item{
+    padding: 25px 0 30px;
+}
+.menu__link{
+    position: relative;
+    font-size: 30px;
+    line-height: 30px;
+    /*letter-spacing: 1px;*/
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    padding: 20px 23px 27px;
+}
+.menu__link:not(:first-child)::before{}
+.menu__link::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    height: 25px;
+    width: 3px;
+    background: #fff;
+}
+.menu__link:hover{
+    /*display: block;*/
+    color: #fff;
+    /*text-decoration: none;*/
+    border-bottom: 2px solid #fff;
+    background-color: #9f9a8e;
+}
+.menu__item:hover{
+    /*border-bottom: 1px solid #fff;*/
+}
+/*============================================*/
+.slider__items {
+    counter-reset: slide;
+}
+
+.slider__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    /*counter-increment: slide;*/
+    /*height: 250px;*/
+    position: relative;
+}
+
+.slider__item::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: bold;
+    display: block;
+}
+
+
