@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 21" width="28" height="21">
+	<title>content (catalog)</title>
+	<defs>
+		<image  width="28" height="21" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAVCAMAAABi3H5uAAAAAXNSR0IB2cksfwAAAcJQTFRF////ysrK////////////////////////y8vL////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ED/ixQAAAJZ0Uk5TAAAEXJqoeiIAJmOb16Icv//rh/XgA7afRvj6MCT378KKLw02ODkgYOOdCTXsJ7PxI2QqEEz82ZWZ9vvoH6EUXf2OLFRrFzFi6pcGsQXRrwGlaVJANEPEw+eeQpKA9B2q2yHzhXSc5FVRUKAVMo3f3uXhCysMCC5WWVPQudVB8N2y/shIy2dvqWjiTT+w+cWrp9qmFkvAbNhrDgAAAX1JREFUeJxVj2VbQkEQheeCDeJRLBBUFBW7C+saKCqiYndjCwa22N31f90L6rOcL7Nn3nnmzBJJEgSBZPKg4JBQChOEMIEoPEKhjKQ/qaLAFC33uxg1M7F/LC4eSEjUQJskOZ0eySmpBkpLNxozMsnIJrPIBGRTTm6GAnn50lCBtK2wqBiKklLSlZVXUKXUqfLtY1HV5praCNQZ68nQICqpUWOGuckHmyG25FuolU23kRVopw6DCZ3+S2xdsLPS3QPYe7VIDidyAH2/d/ZC7GclLViKih1gz0EMyX5h6TBGfI/R1LHielYHRMj/vz+OiUniNIXpnH8zM4s5juk0mOfsApyLjiWHX8sryFvl4JqIAFXyIbRucm64TG63e9O16VRjUBZAt2y67R3Pjky1a7HtAfsBkEKsEwUWOpiuPjTQEY49PDuB1ovTs3NYcXF5BVzz8Aa3d9Ip9w96bwWrdh4+4lwN5dMzvHi5vH19OwnInH93f3zS19XwdxLX/QG0bkcPCBbRdAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="content (catalog)">
+		<g id="centerblock">
+			<g id="Товар">
+				<use id="addtobasket_mini" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
