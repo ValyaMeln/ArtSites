@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 61" width="34" height="61">
+	<title>slider</title>
+	<defs>
+		<image  width="34" height="61" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA9AgMAAAC1qVMfAAAAAXNSR0IB2cksfwAAAAxQTFRF0dHR0tLS09PTAAAAoHnq1AAAAZVJREFUeJwdUUFu3DAMHCZUmpxMJ9Ihtz007zBVaJH0VBlw70U/EucH+4n+wwX2AfuUpocCBbZQR2vAAE1zhjNDwPb+dKvJIYBCMhzZU91lLcDMngEReLIMwxvf0QyakAxXIqgdxVdCNeHfu8gCmjkHFFY49AmbL3OHZVZfnXMws4IQWKDw48QWiCrPG/nJpxh+yoqse8N0VOojf25HbnSOXretduzyaWiqFbsFNp27lCII7W+9AjzGh3bCI7rKoZHSEdynM5ybaKT9cmFPdx/altEfGxqscFu01/MtKfqu9l5vZiL0uW2OsjNm1d6hTozodC6BVuhhaPaxdkf60I7CsCB1aX/WzhGwUt6eis3C0L6OxIastOG1O8povy8nGOnjn0SqQpKhjblSc6lc3ZVGl8iqdq0rphOpLRH/ZWPACfOLX1Mi7kU8+qbMPpU3kn0z7HlJqd34fG9dkht8RImQG3ozWWmcOw5RYtEfL/2qqqNbT0awkzFdknfF536sAv0+dskIhjkJ42WPRkEaLGMwy3fF/gPirmNOG9FsNQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="slider">
+		<use id="Слой 8 kопировать" href="#img1" x="0" y="0" />
+	</g>
+</svg>

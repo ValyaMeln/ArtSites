@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 61" width="34" height="61">
+	<title>slider</title>
+	<defs>
+		<image  width="34" height="61" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA9AgMAAAC1qVMfAAAAAXNSR0IB2cksfwAAAAxQTFRF0dHR0tLS09PTAAAAoHnq1AAAAZJJREFUeJwdUUtuFTEQrH60RbKKLXlgmQniGJHcljyQHX4i2WeRA+QALGaRPbkCN3mROADc5CFl+SJTPdKM1J/q7nIV4pPIGtEA04wI8Je9zfYQbzqCCTJrMwEzWzmsBMqC1g0QYi1MykYT+7wHa09EJ7PK2hdoiGBXowQi2GHYgZo7JHJLbMaL+tiwXYb9qOprEa0kqLIooRywpOj8yr/kG3i8nHr2fZNcjHyVt+Gv49B3pKWWxlGc9a5pOdUlGeLu7GKQHruQ9+P3ds6Qxyuqs0IsJyX7hL5ejtY4gSjfx1+Q7jylNo6uTIt4KG/JRz/BtlpF0I/jhftC+vX8bYiLQAnLyTlB5jyO/Z4TIbwbh/0HHpP2cygoOsV12Ln548ar+qgIYS3ycbeZlDc1JpS3KHHHLJfjCqlOufwRV4Xt4j6ox9eoKZJfl8dE9/xJXajXwoAWEnNnHdaC9FlvgMWyL/NPOJaxN7rXK1qg3xRRqzgDyNJ4glELVRc3xsum7jONoujP9YwsmE2eYQ3k2PT2/j8v31ymQZiRXgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="slider">
+		<use id="Слой 17" href="#img1" x="0" y="0" />
+	</g>
+</svg>
