@@ -66,7 +66,6 @@ img {
 /*======================================*/
 .menu-body {
     background-color: #767676;
-    /*background-color: #3b3b3b;*/
 }
 
 .menu-body__list {
@@ -76,16 +75,11 @@ img {
     margin-bottom: 0;
 }
 
-.menu__item {
-    /*padding: 25px 0 30px;*/
-}
-
 .menu__link {
     display: inline-block;
     position: relative;
     font-size: 30px;
     line-height: 30px;
-    /*letter-spacing: 1px;*/
     color: #ffffff;
     font-weight: 400;
     text-align: center;
@@ -121,42 +115,15 @@ img {
 }
 
 .menu__link:hover {
-    /*display: block;*/
     color: #fff;
-    /*text-decoration: none;*/
-    /*border-bottom: 2px solid #fff;*/
     background-color: #9f9a8e;
-    /*text-decoration: underline #ffffff;*/
+}
+
+.menu__item:last-child .menu__link::before {
+    display: none;
 }
 
 /*============================================*/
-.slider__items {
-    counter-reset: slide;
-}
-
-.slider__item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    /*counter-increment: slide;*/
-    /*height: 250px;*/
-    position: relative;
-}
-
-.slider__item::before {
-    content: "";
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    color: #fff;
-    font-style: italic;
-    font-size: 32px;
-    font-weight: bold;
-    display: block;
-}
-
-/*==================================*/
 .content-catalog__list {
     list-style: none;
     padding: 0;
@@ -184,6 +151,10 @@ img {
     width: 3px;
     background: #767676;
     transform: rotate(30deg);
+}
+
+.content-catalog__item:last-child .content-catalog__link::before {
+    display: none;
 }
 
 .content-catalog__link:hover {
@@ -303,7 +274,6 @@ img {
 
 .footer-copy__email:hover {
     color: #ffffff;
-    /*text-decoration: none;*/
 }
 
 .footer-menu__list {
@@ -312,15 +282,10 @@ img {
     margin-bottom: 0;
 }
 
-.footer-menu__item {
-
-}
-
 .footer-menu__link {
     display: inline-block;
     padding-top: 14px;
     color: #fff;
-    /*border-bottom: 1px solid #fff;*/
     text-decoration: underline #bbbbbb;
 }
 
@@ -333,17 +298,9 @@ img {
     color: #fff;
 }
 
-.footer-company {
-
-}
-
 .footer-logo {
     padding-top: 4px;
     padding-right: 8px;
-}
-
-.footer-company__wrapper {
-
 }
 
 .footer-company__email {
@@ -375,8 +332,6 @@ img {
 }
 
 /*=============================*/
-
-
 .modal-content {
     display: none;
 
@@ -394,6 +349,7 @@ img {
     background: #ffffff;
     box-shadow: 0 30px 50px rgba(0, 0, 0, .7);
     border-radius: 0;
+    z-index: 1;
 }
 
 @keyframes bounce {
@@ -423,9 +379,9 @@ img {
     }
 }
 
-/*.modal-error {*/
-/*    animation: shake .6s;*/
-/*}*/
+.modal-error {
+    animation: shake .6s;
+}
 
 /*.modal-content-map {*/
 /*    display: none;*/
@@ -449,20 +405,6 @@ img {
     display: block;
     animation: bounce .6s;
 }
-
-/*.modal-overlay {*/
-/*    display: none;*/
-
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    z-index: 10;*/
-
-/*    width: 100%;*/
-/*    height: 100%;*/
-
-/*    background: rgba(255, 0, 0, .5);*/
-/*}*/
 
 .modal-content-close {
     position: absolute;
@@ -534,18 +476,6 @@ img {
     border-color: #663d15;
 }
 
-/*.login-form input.icon-user {*/
-/*    background-image: url("img/avatar.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: 95% 11px;*/
-/*}*/
-
-/*.login-form input.icon-password {*/
-/*    background-image: url("img/padlock.svg");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: 95% 11px;;*/
-/*}*/
-
 .login-form .restore {
     float: right;
 
@@ -564,51 +494,3 @@ img {
     border-radius: 0;
     border: 0;
 }
-
-/*.login-checkbox input[type="checkbox"] {*/
-/*    display: none;*/
-/*}*/
-
-/*.login-checkbox {*/
-/*    position: relative;*/
-
-/*    padding-left: 30px;*/
-
-/*    cursor: pointer;*/
-/*}*/
-
-/*.login-checkbox:hover {*/
-/*    color: #663d15;*/
-/*}*/
-
-/*.login-checkbox input[type="checkbox"] + .checkbox-indicator {*/
-/*    position: absolute;*/
-/*    top: -3px;*/
-/*    left: 0;*/
-
-/*    width: 17px;*/
-/*    height: 17px;*/
-
-/*    border: 2px solid #000000;*/
-/*}*/
-
-/*.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,*/
-/*.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: 8px;*/
-/*    left: 1px;*/
-
-/*    width: 15px;*/
-/*    height: 2px;*/
-
-/*    background-color: #000;*/
-/*}*/
-
-/*.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before {*/
-/*    transform: rotate(45deg);*/
-/*}*/
-
-/*.login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {*/
-/*    transform: rotate(-45deg);*/
-/*}*/
