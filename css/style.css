@@ -387,9 +387,9 @@ img {
     }
 }
 
-.modal-error {
-    animation: shake .6s;
-}
+/*.modal-error {*/
+/*    animation: shake .6s;*/
+/*}*/
 
 /*.modal-content-map {*/
 /*    display: none;*/
@@ -413,7 +413,9 @@ img {
     display: block;
     animation: bounce .6s;
 }
-
+.modal-error {
+    animation: shake .6s;
+}
 .modal-content-close {
     position: absolute;
     top: -28px;
