@@ -54,24 +54,6 @@
     </div>
 </section>
 
-<!--<slider></slider> – блок со слайдером.-->
-<!--<div class="slider">-->
-<!--    <div class="slider__item">-->
-<!--        <img src="image/slider1.png" alt="slider1">-->
-<!--    </div>-->
-<!--    <div class="slider__item">-->
-<!--        <img src="image/slider2.png" alt="slider2">-->
-<!--    </div>-->
-<!--    <div class="slider__item">-->
-<!--        <img src="image/slider1.png" alt="slider1">-->
-<!--    </div>-->
-<!--    <div class="slider__item">-->
-<!--        <img src="image/slider2.png" alt="slider2">-->
-<!--    </div>-->
-<!--    <div class="slider__item">-->
-<!--        <img src="image/slider1.png" alt="slider1">-->
-<!--    </div>-->
-<!--</div>-->
 <section class="slider">
     <div class="slider__container container">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000">
@@ -234,24 +216,27 @@
     </div>
 </footer>
 <!--<feedback></feedback> всплывающая форма обратной связи-->
-<div class="modal-content">
-    <button class="modal-content-close" type="button" title="Закрити">
-        Закрити
-    </button>
-    <h2 class="modal-content-title">Обратная связь</h2>
-    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="name-input">Ваше имя *</p>
-        <input class="icon-user" type="text" name="name" >
-        <p class="name-input">Телефон *</p>
-        <input class="icon-password" type="tel" name="phone">
-        <p class="name-input">Email *</p>
-        <input class="icon-user" type="email" name="email">
-        <p class="name-input">Сообщение</p>
-        <textarea class="comment" cols="10" rows="5" name="comment"></textarea>
-        <button class="btn" type="submit">
-            ОТПРАВИТЬ
+<div class="modal" id="login-form">
+    <div class="modal-content">
+        <button class="modal-content-close" type="button" title="Закрити">
+            Закрити
         </button>
-    </form>
+        <h2 class="modal-content-title">Обратная связь</h2>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <label for="name" class="name-input">Ваше имя *</label>
+            <input id="name" class="form-input" type="text" name="name">
+            <label for="phone" class="name-input">Телефон *</label>
+            <input id="phone" class="form-input" type="tel" name="phone">
+            <label for="email" class="name-input">Email *</label>
+            <input id="email" class="form-input invalid" type="email" name="email"
+                   placeholder="Поле обязательно для заполнения">
+            <label for="comment" class="name-input">Сообщение</label>
+            <textarea id="comment" class="comment form-input" cols="10" rows="5" name="comment"></textarea>
+            <button class="btn" type="submit">
+                ОТПРАВИТЬ
+            </button>
+        </form>
+    </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

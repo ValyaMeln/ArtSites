@@ -1,6 +1,6 @@
-
 let link = document.querySelector('.header__contacts-feedback');
-let popup = document.querySelector(".modal-content");
+let popup = document.querySelector("#login-form");
+let popupContent = document.querySelector("#login-form .modal-content");
 let close = document.querySelector(".modal-content-close");
 let name = popup.querySelector("[name=name]");
 let form = popup.querySelector("form");
@@ -20,13 +20,13 @@ link.addEventListener("click", function (event) {
 close.addEventListener("click", function (event) {
     event.preventDefault();
     popup.classList.remove('modal-content-show');
-    popup.classList.remove('modal-error');
+    popupContent.classList.remove('modal-error');
 });
 
 form.addEventListener("submit", function (event) {
     if (!name.value || !email.value) {
         event.preventDefault();
-        popup.classList.add("modal-error")
+        popupContent.classList.add("modal-error")
     } else {
         localStorage.setItem("name", name.value);
     }
