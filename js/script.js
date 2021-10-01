@@ -1,3 +1,7 @@
+document.ready(function () {
+    ('.slider').slick();
+});
+
 let link = document.querySelector('.header__contacts-feedback');
 let popup = document.querySelector(".modal-content");
 let close = document.querySelector(".modal-content-close");
@@ -43,3 +47,4 @@ window.addEventListener("keydown", function (event) {
     }
     console.log("??????????");
 })
+
