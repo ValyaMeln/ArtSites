@@ -1,10 +1,4 @@
-/** {*/
-/*    color: red;*/
-/*    border: 2px solid red;*/
-/*}*/
-
 body {
-    /*font-family: 'Open Sans Condensed', sans-serif;*/
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 22px;
@@ -60,7 +54,6 @@ img {
 
 [class*='header__contacts-phone']:hover {
     color: red;
-    /*text-decoration: none;*/
 }
 
 .header__contacts-feedback:hover {
@@ -98,17 +91,6 @@ img {
     margin-right: 15px;
 }
 
-/*.menu__item:not(:nth-child(:last-child)) .menu__link::before{*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: -5px;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
-/*    right: 0;*/
-/*    height: 25px;*/
-/*    width: 3px;*/
-/*    background: #fff;*/
-/*}*/
 .menu__link::before {
     content: "";
     position: absolute;
@@ -342,14 +324,12 @@ img {
 /*=============================*/
 .modal-content {
     display: none;
-
     position: absolute;
     top: 350px;
     left: 0;
     right: 0;
     width: 466px;
     height: 578px;
-
     margin: auto;
     padding: 35px 60px 25px;
     text-align: center;
@@ -387,45 +367,22 @@ img {
     }
 }
 
-/*.modal-error {*/
-/*    animation: shake .6s;*/
-/*}*/
-
-/*.modal-content-map {*/
-/*    display: none;*/
-
-/*    position: fixed;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    z-index: 20;*/
-
-/*    width: 766px;*/
-/*    height: 561px;*/
-/*    margin-top: -280px;*/
-/*    margin-left: -390px;*/
-
-/*    background: #e9e5dc url("img/map.png") no-repeat;*/
-/*    border: 7px solid white;*/
-/*    box-shadow: 0 30px 30px rgba(0, 0, 0, .7);*/
-/*}*/
-
 .modal-content-show {
     display: block;
     animation: bounce .6s;
 }
+
 .modal-error {
     animation: shake .6s;
 }
+
 .modal-content-close {
     position: absolute;
     top: -28px;
     right: -28px;
-
     width: 27px;
     height: 27px;
-
     font-size: 0;
-
     background-color: #777777;
     border: 0;
     cursor: pointer
@@ -440,7 +397,6 @@ img {
     left: 0;
     right: 0;
     margin: auto;
-
     width: 15px;
     height: 1px;
     background-color: #ffffff;
@@ -478,7 +434,6 @@ img {
     width: 100%;
     margin: 0 0 10px;
     padding: 10px 40px 10px 15px;
-
     border: 1px solid #c3c3c3;
 }
 
@@ -517,8 +472,10 @@ img {
         font-size: 30px;
         line-height: 36px;
     }
+
     .cost-basket {
-        margin-top: 40px;}
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -532,11 +489,15 @@ img {
         margin-top: 15px;
         text-align: center;
     }
-    .catalog__col-wrapper{
+
+    .catalog__col-wrapper {
         text-align: center;
     }
+
     .catalog__basket {
-        margin-top: 0;}
+        margin-top: 0;
+    }
+
     .catalog__col-text-left {
         padding-left: 20px;
     }
