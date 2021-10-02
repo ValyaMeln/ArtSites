@@ -360,22 +360,10 @@ img {
     border-radius: 0;
     z-index: 3;
 }
-
-@keyframes bounce {
-    0% {
-        transform: translateY(-2000px);
-    }
-    70% {
-        transform: translateY(30px);
-    }
-    90% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+@keyframes fade {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
-
 @keyframes shake {
     0%, 100% {
         transform: translateX(0);
@@ -390,7 +378,7 @@ img {
 
 .modal-content-show {
     display: block;
-    animation: bounce .6s;
+    animation: fade .6s;
 }
 
 .modal-error {
