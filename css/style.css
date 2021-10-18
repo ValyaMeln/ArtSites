@@ -348,9 +348,9 @@ img {
     bottom: 0;
     left: 0;
     right: 0;
-    width: 466px;
-    height: 578px;
-    max-height: 85%;
+    max-width: 466px;
+    /*height: 578px;*/
+    max-height: 90%;
     margin: auto;
     padding: 35px 60px 25px;
     text-align: center;
@@ -531,11 +531,20 @@ img {
     .catalog__col-text-right {
         padding-right: 20px;
     }
+    .modal-content-show{
+        width: 100%;
+    }
+    .login-form .btn{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .content-catalog__list {
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    .modal-content{
+        padding: 15px;
     }
 }
