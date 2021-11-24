@@ -360,10 +360,16 @@ img {
     border-radius: 0;
     z-index: 3;
 }
+
 @keyframes fade {
-    0% {opacity:0;}
-    100% {opacity:1;}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes shake {
     0%, 100% {
         transform: translateX(0);
@@ -531,12 +537,30 @@ img {
     .catalog__col-text-right {
         padding-right: 20px;
     }
-    .modal-content-show{
+
+    .modal-content-show {
         width: 100%;
     }
-    .login-form .btn{
+
+    .login-form .btn {
         width: 100%;
     }
+}
+
+.tc {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.grape {
+    color: #be4bdb;
+}
+
+canvas {
+    display: inline-block;
 }
 
 @media screen and (max-width: 350px) {
@@ -544,7 +568,8 @@ img {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .modal-content{
+
+    .modal-content {
         padding: 15px;
     }
 }
